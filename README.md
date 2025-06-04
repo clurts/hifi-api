@@ -1,5 +1,17 @@
 #API til loginøvelser
 
-Clon reporsitory og kør npm start
+Clon reporsitory.
 
-Dokumentation: http://localhost:4000
+Installer dependencies:
+
+```
+npm install
+```
+
+Start api:
+
+```
+npm start
+```
+
+Dokumentation, med informaiton om endpoints mv.: http://localhost:4000
