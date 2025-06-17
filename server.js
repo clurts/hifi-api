@@ -24,6 +24,15 @@ const rules = auth.rewriter({
 // You must apply the auth middleware before the router
 app.use(rules);
 app.use(auth);
+
+// Rewrite /products/:slug to /products?slug=:slug
+app.get("/products/:slug", (req, res, next) => {
+  const slug = req.params.slug;
+  req.url = `/products?slug=${slug}`;
+  next();
+});
+
+
 app.use(router);
 app.listen(port, () => {
   console.log("Server is ready for requests on port " + port);
