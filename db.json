@@ -63,10 +63,10 @@
   ],
   "contact": [
     {
-      "id": 10001
+      "id": 10001,
       "name": "Carsten",
       "email": "clu@mail.dk",
-      "subject": "How can I get a refund?"
+      "subject": "How can I get a refund?",
       "message": "dælkjfakjfaælkdsfælka"
     }
   ]
