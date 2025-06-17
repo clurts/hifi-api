@@ -60,5 +60,14 @@
       "id": 2005,
       "sentence": "It is going to be a great day!"
     }
+  ],
+  "contact": [
+    {
+      "id": 10001
+      "name": "Carsten",
+      "email": "clu@mail.dk",
+      "subject": "How can I get a refund?"
+      "message": "dælkjfakjfaælkdsfælka"
+    }
   ]
 }
