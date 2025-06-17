@@ -13,7 +13,7 @@
       "id": 2
     }
   ],
-  "secrets": [
+  "products": [
     {
       "id": 1001,
       "quote": "Three may keep a secret, if two of them are dead.",
@@ -39,7 +39,7 @@
       "origin": "The Secret Sits"
     }
   ],
-  "statements": [
+  "orders": [
     {
       "id": 2001,
       "sentence": "This coffee shop is cozy."
